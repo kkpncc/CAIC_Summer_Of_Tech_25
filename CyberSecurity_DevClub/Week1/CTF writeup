@@ -1,0 +1,31 @@
+Challenges that I attempted and approcah(es) is used 
+
+1. Problem at starting 
+2. Hidden in crowd
+3. Locked Vault
+4. Log explore
+5. I also solved a problem where i just had go into some directory and read a file in it 
+
+
+
+1. Problem at starting 
+It was straight forward , flag was there
+
+2. Hidden in crowd
+I had usse ssh command then there was directory then i had many files ,
+I tried to think maybe file name has some hint first like it might have ctf/flag/fl4g in name
+but that didnt worked that i opend hidden files then i was able to find the flag
+
+3. Locked Vault
+In this challenge there were three files , I had to change permissions to get password for the
+other file and also had make them executable to execute them but when i tried to use password 
+that i got from file1.sh it didnt opend file2.sh so i used cat command and show inside of the file
+and found that i had use password from file2.sh to XOR with certain string in file3.sh to get flag so 
+i did that but timer was close i didnt got submitted in within time
+
+
+4. Log explore
+I had to download the file then , had to get a log.txt file i was 16 Gb in size notepad cant open it , 
+and my terminal cant open it with cat command so i had to use find ctf thing inside file but it said it is binary 
+so i  used grep and rrad binary as text to find dcCTF{} type of text in file and i got the flag
+
